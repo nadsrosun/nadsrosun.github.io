@@ -1,2 +1,14 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800,700,300italic,400italic);
+
 html { position: relative; min-height: 100% }
+body { margin-bottom: 60px; font-family: 'Open Sans', sans-serif; }
+h1 { font-weight: 700; }
+p { line-height: 1.8; font-size: 16px; margin-bottom: 20px; }
 .container { width: auto; max-width: 680px; padding: 0 15px; }
+
+/* Intro */
+.goals { font-style: italic; }
+
+/* Footer */
+.footer { position: absolute; bottom: 0; width: 100%; height: 30px; }
+.footer .container { border-top: 1px solid #eee; padding-top: 5px; } 
